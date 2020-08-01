@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Add Data</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/producto.css">
+</head>
+
+<body>
+	<a href="index.php">Informacion Producto</a><br>
+	<a href="../dashboard.php">Inicio</a>
+	<br/><br/>
+
+	<form action="add.php" method="post" name="form1">
+		<table width="25%" border="0">
+			<tr>
+				<td>Codigo_producto</td>
+				<td><input type="number" name="Codigo_producto"></td>
+			</tr>
+			<tr>
+				<td>Nombre</td>
+				<td><input type="text" name="Nombre"></td>
+			</tr>
+			<tr>
+				<td>Direccion</td>
+				<td><input type="text" name="Direccion"></td>
+			</tr>
+			<tr>
+				<td>Codigo_proveedor</td>
+				<td><input type="number" name="Codigo_proveedor"></td>
+			</tr>
+			<tr>
+				<td>Codigo_existente</td>
+				<td><input type="text" name="Codigo_existente"></td>
+			</tr>
+			<tr>
+				<td>Numero</td>
+				<td><input type="number" name="Numero"></td>
+			</tr>
+			<tr>
+				<td>Precio_Unitario</td>
+				<td><input type="number" name="Precio_Unitario"></td>
+			</tr>
+			<tr>
+				<td>Precio_Mayoritario </td>
+				<td><input type="number" name="Precio_Mayoritario"></td>
+			</tr>
+				<td><input type="submit" name="Submit" value="Enviar"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* General */
+body {
+  background: rgb(0, 0, 0);
+  font-style: italic;
+  color: blanchedalmond;
+}
+
+h1 {
+  width: 400px;
+  color: blanchedalmond;
+}
+
+h2 {
+  width: 600px;
+  background-color: rgb(29, 31, 25);
+  color: blanchedalmond;
+}
+h3 {
+  background-color: rgb(29, 31, 25);
+  color: blanchedalmond;
+}
+
+div {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+a {
+  width: 400px;
+  color: blanchedalmond;
+}
